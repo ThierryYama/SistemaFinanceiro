@@ -1,4 +1,5 @@
 import 'package:financeiro/ui/widgets/summary_card.dart';
+import 'package:financeiro/ui/widgets/summary_chart.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -44,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
-      body: SummaryCard(totalIncome: 10, totalExpense: 100, balance: 10),
+      body: SummaryChart(totalIncome: 10, totalExpense: 10),
     );
   }
 }
